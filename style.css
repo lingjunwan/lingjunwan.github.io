@@ -201,6 +201,43 @@ p {
 }
 /* End Header section */
 
+/* Scroll To Top Button Section */
+.scrollButton {
+  position: fixed;
+  right: 5%;
+  bottom: 180px;
+  width: 35px;
+  height: 35px;
+  background-color: goldenrod;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollButton:hover {
+  background-color: gold;
+}
+
+.scrollButton a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollButton svg {
+  stroke: currentColor;
+  fill: currentColor;
+  stroke-width: 0;
+  width: 3em;
+  height: 3em;
+}
+
+.scrollButton svg:hover {
+  color: white;
+}
+/* End Scroll To Top Button Section */
+
 /* Hero Section */
 #hero {
   background-image: url(./img/background.JPG);
@@ -417,6 +454,22 @@ p {
 }
 #projects .project-item:hover .project-img img {
   transform: scale(1.07);
+}
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid grey;
+  border-radius: 2.2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: black;
+}
+
+.button:hover {
+  background-color: rgba(50, 110, 222, 0.889);
+  color: white;
 }
 /* End Projects section */
 

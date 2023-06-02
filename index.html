@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Lingjun Wan | Full Stack Developer</title>
+    <style>
+
+    </style>
   </head>
 
   <body>
@@ -34,6 +37,16 @@
     </section>
     <!-- End Header -->
 
+    <!-- Scroll To Top Button Section -->
+    <div class="scrollButton">
+      <a href="#hero">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="text-3xl text-white hover:text-blue">
+          <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+        </svg>
+      </a>
+    </div>
+    <!-- End Scroll To Top Button Section -->
+
     <!-- Hero Section  -->
     <section id="hero">
       <div class="hero container">
@@ -59,14 +72,8 @@
           <h1 class="section-title">About <span>me</span></h1>
           <h2>Full-stack Developer</h2>
           <p>
-            I am a passionate Full Stack Developer with a deep love for web development.<br />
-            Coding is giving me the mental stimulation I need to lead a
-            fulfilling life. I love how the industry is constantly changing and
-            how a lot of things in tech have been inspired by open source
-            culture, sharing knowledge and allowing people to learn from
-            that.<br />
             As a Full Stack Developer, I enjoy the holistic nature of the role, being able to work on both the frontend and backend components of a project. It allows me to leverage a diverse range of technologies and frameworks, constantly expanding my skill set and keeping me engaged in my work.<br />
-            In addition to my technical skills, I place a high value on effective communication and teamwork. My experience as a QA has taught me the importance of collaborating with cross-functional teams and leveraging collective expertise to deliver successful projects. I thrive in an environment that encourages open communication, knowledge exchange, and collaboration. I believe that working together with colleagues from different backgrounds and areas of expertise can lead to innovative solutions and better outcomes.
+            In addition to my technical skills, I highly prioritize effective communication and teamwork. Through my experience as a QA, I have learned the immense value of collaborating with cross-functional teams and leveraging collective expertise to achieve project success. I thrive in environments that foster open communication, encourage knowledge exchange, and promote collaboration. I firmly believe that working alongside colleagues from diverse backgrounds and areas of expertise leads to innovative solutions and ultimately better outcomes.
           </p>
           <a href="./doc/CV_Lingjun Wan.pdf" download target="_blank" class="cta">Download Resume</a>
           <div class="social-icon">
@@ -210,6 +217,7 @@
           <h1 class="section-title">Recent <span>Projects</span></h1>
         </div>
         <div class="all-projects">
+
           <div class="project-item">
             <div class="project-info">
               <h1>Project X</h1>
@@ -220,60 +228,93 @@
                 illum quae mollitia ut, accusantium eius odio ducimus illo neque
                 atque libero non sunt harum? Ipsum repellat animi, fugit
                 architecto voluptatum odit et!
-              </p>
+              </p><br><br>
+              <div>
+                <a href="{project.sourceCode}" target="_blank" class="button">
+                  Source Code
+                </a>
+                <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <a href="#" target="_blank" class="button">
+                  Live  Demo
+                </a>
+              </div>
             </div>
             <div class="project-img">
               <img src="./img/img-1.png" alt="img" />
             </div>
           </div>
-          <a href="https://github.com/lingjunwan/Food-Ordering-System-in-PHP" target="_blank">
-            <div class="project-item">
-              <div class="project-img">
-                <img src="./img/FoodOrderingSystem.png" alt="FoodOrderingSystem" />
-              </div>
-              <div class="project-info">
-                <h1>Food Ordering System</h1>
-                <h2>— Online food ordering and management application</h2>
-                <p>
-                  ● Used: PHP, HTML5, CSS, JavaScript, MySQL, DOM API<br /><br />
-                  ● Created user registration/login using PHP sessions and dynamic admin panel to perform entire CRUD.<br />
-                  ● Regular expressions and PHP sessions enable maintaining user login state across multiple pages and implementing different headers based on the type of user that is logged in.
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="https://github.com/lingjunwan/DiceGame-in-Python" target="_blank">
-            <div class="project-item">
-              <div class="project-info">
-                <h1>Dice Game</h1>
-                <h2>— Python web application</h2>
-                <p>
-                  ●	Used: Python, Flask, Jinja2, JavaScript, Bootstrap, AWS, EC2, Ubuntu<br /><br />
-                  ●	Session variables are used to store the current game state across different pages or interactions with the application.<br />
-                  ●	Hosted on an AWS EC2 instance and a Virtual Private Cloud (VPC) is created to secure the instance.
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/DiceGame.jpg" alt="DiceGame" />
+          
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Food Ordering System</h1>
+              <h2>— Online food ordering and management application</h2>
+              <p>
+                ● Used: PHP, HTML5, CSS, JavaScript, MySQL, DOM API<br /><br />
+                ● Created user registration/login using PHP sessions and dynamic admin panel to perform entire CRUD.<br />
+                ● Regular expressions and PHP sessions enable maintaining user login state across multiple pages and implementing different headers based on the type of user that is logged in.
+              </p><br><br>
+              <div>
+                <a href="https://github.com/lingjunwan/Food-Ordering-System-in-PHP" target="_blank" class="button">
+                  Source Code
+                </a>
+                <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <a href="#" target="_blank" class="button">
+                  Live  Demo
+                </a>
               </div>
             </div>
-          </a>
-          <a href="https://github.com/lingjunwan/Permission-Management-System" target="_blank">
-            <div class="project-item">
-              <div class="project-img">
-                <img src="./img/PermissionManagement.png" alt="PermissionManagement" />
-              </div>
-              <div class="project-info">
-                <h1>Permission-Management-System</h1>
-                <h2>— General Permission-Management web application</h2>
-                <p>
-                  ●	Used: SpringBoot, MyBatisPlus, SpringSecurity, Node.js, Vue.js, MySQL, Redis, Npm, ElementUI, Axios<br /><br />
-                  ●	Implemented CRUD operations for various objects, established corresponding account permissions, and logged the operations in the operation log. <br />
-                  ●	The login log captures the user's IP address, login status, and login time upon successful login.
-                </p>
+            <div class="project-img">
+              <img src="./img/FoodOrderingSystem.png" alt="FoodOrderingSystem" />
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Dice Game</h1>
+              <h2>— Python web application</h2>
+              <p>
+                ●	Used: Python, Flask, Jinja2, JavaScript, Bootstrap, AWS, EC2, Ubuntu<br /><br />
+                ●	Session variables are used to store the current game state across different pages or interactions with the application.<br />
+                ●	Hosted on an AWS EC2 instance and a Virtual Private Cloud (VPC) is created to secure the instance.
+              </p><br><br>
+              <div>
+                <a href="https://github.com/lingjunwan/DiceGame-in-Python" target="_blank" class="button">
+                  Source Code
+                </a>
+                <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <a href="#" target="_blank" class="button">
+                  Live  Demo
+                </a>
               </div>
             </div>
-          </a>
+            <div class="project-img">
+              <img src="./img/DiceGame.jpg" alt="DiceGame" />
+            </div>
+          </div>
+ 
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Management System</h1>
+              <h2>— General Permission-Management web application</h2>
+              <p>
+                ●	Used: SpringBoot, MyBatisPlus, SpringSecurity, Node.js, Vue.js, MySQL, Redis, Npm, ElementUI, Axios<br /><br />
+                ●	Implemented CRUD operations for various objects, established corresponding account permissions, and logged the operations in the operation log. <br />
+                ●	The login log captures the user's IP address, login status, and login time upon successful login.
+              </p><br><br>
+              <div>
+                <a href="https://github.com/lingjunwan/Permission-Management-System" target="_blank" class="button">
+                  Source Code
+                </a>
+                <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <a href="#" target="_blank" class="button">
+                  Live  Demo
+                </a>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./img/PermissionManagement.png" alt="PermissionManagement" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
