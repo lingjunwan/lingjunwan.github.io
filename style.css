@@ -301,7 +301,6 @@ p {
 #hero h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
-
 /* End Hero Section */
 
 /* Services Section */
@@ -582,6 +581,15 @@ p {
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 500;
+}
+.google-map-container {
+  width: 95%;
+}
+
+.google-map-container iframe {
+  width: 100%;
+  height: 350px;
+  border: 0;
 }
 /*End contact Section */
 
